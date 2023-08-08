@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: whitesmoke;
+}
+.container {
+  width: 100%;
+  height: 750px;
+  background-image: url("pexels-asad-photo-maldives-1450340.jpg");
+  background-size: cover;
+}
+.header {
+  width: auto;
+  height: 10%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+}
+
+nav input {
+  color: #00030b;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  margin: 1rem 5rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+input:hover {
+  font-size: 2rem;
+  transition: 0.5s;
+}
+button {
+  padding: 10px 40px;
+  color: white;
+  background-color: rgba(0, 0, 255, 0.444);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  padding: 12px 50px;
+  color: white;
+  font-size: large;
+  background-color: rgba(0, 0, 255, 0.444);
+  border-radius: 20px;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
+  transition-property: all;
+}
+
+.inner,
+.btn {
+  width: 40%;
+  margin: 120px 150px;
+}
+.FamousTourism {
+  margin: 10px;
+  display: flex;
+}
+
+.visit {
+  height: 300px;
+  margin: 10px 35px;
+  padding: 5px;
+  box-shadow: 5px 5px 20px black;
+}
+
+img {
+  height: 300px;
+  width: 400px;
+  cursor: pointer;
+}
+.intro {
+  height: 70px;
+  width: 400px;
+  padding: 6px;
+  top: 1045px;
+  box-sizing: border-box;
+  position: absolute;
+  background: rgb(25, 25, 25, 0.5);
+}
+
+.intro:hover {
+  height: 300px;
+  top: 810px;
+  background: rgb(6, 6, 6, 0.5);
+}
+
+h2 {
+  margin: 10px;
+}
+.intro p {
+  color: white;
+  font-size: 20px;
+  margin: 30px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.visit :hover {
+  color: white;
+  cursor: pointer;
+}
+
+.visit :hover p {
+  opacity: 1;
+  visibility: visible;
+}
